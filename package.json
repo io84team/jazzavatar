@@ -1,0 +1,38 @@
+{
+    "name": "jazzavatar",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "dependencies": {
+        "color": "^3.1.3",
+        "jsdom": "^16.4.0",
+        "koa": "^2.13.1",
+        "koa-route": "^3.2.0",
+        "md5-node": "^1.0.1",
+        "mersenne-twister": "^1.1.0",
+        "xmlserializer": "^0.6.1"
+    },
+    "devDependencies": {
+        "canvas": "^2.6.1",
+        "nodemon": "^2.0.7"
+    },
+    "scripts": {
+        "dev": "nodemon --exec node src/main.js",
+        "build": "webpack",
+        "start": "NODE_OPTIONS='--no-deprecation' node src/main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/io84team/jazzavatar.git"
+    },
+    "keywords": [
+        "jazzavatar",
+        "jazzicon"
+    ],
+    "author": "Aben <me@aben.io>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/io84team/jazzavatar/issues"
+    },
+    "homepage": "https://github.com/io84team/jazzavatar#readme"
+}
